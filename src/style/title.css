@@ -1,0 +1,22 @@
+.title {
+    text-align: center;
+    margin: 5vw;
+    margin-top: 10vh;
+  }
+
+  .break{
+    margin: 0 10vw;
+}
+
+@media only screen and (max-width: 600px) {
+    
+  .title {
+    margin-top: 15vh;
+  }
+
+  .display-4 {
+    font-size: 2rem;
+}
+  
+}
+

@@ -1,0 +1,21 @@
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.video-description {
+    margin: 3vh 10vw;
+    align-self: center;
+}
+
+.video-button {
+    width: 50vw;
+    align-self: center;
+}
+
+.video-iframe {
+    width: 80vw;
+    height: 40vw;
+}

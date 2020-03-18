@@ -1,0 +1,25 @@
+.header-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center;    
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.opacaty{
+    background-image: linear-gradient(to right, rgba(0.5, 0.5, 0.5, 0.0) , rgba(0.5, 0.5, 0.5, 0.4),rgba(0.5, 0.5, 0.5, 0.0));
+    /* background-color: rgba(0.5, 0.5, 0.5, 0.4); */
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 5vw;
+    text-align: center;
+    z-index: +1;
+}
+
+.main-title {
+    text-align: center;
+    margin: 5vw;
+    margin-top: 5vh;
+  }

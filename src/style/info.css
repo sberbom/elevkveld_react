@@ -1,0 +1,47 @@
+.info-container {
+    display: flex;
+    margin: 10vh 10vw;
+    margin-top: 3vh;
+}
+
+.info-text {
+    padding: 0 3vw;
+    width: 60%;
+}
+
+.mazemap {
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .lead {
+        font-size: 1rem;
+    }
+
+    .påmelding-btn {
+        margin-bottom: 2vh;
+    }
+
+    .mazemap {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .info-container{
+        flex-direction: column;
+    }
+
+    .info-text {
+        width: 100%;
+    }
+    
+}

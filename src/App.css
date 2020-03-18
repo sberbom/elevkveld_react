@@ -1,5 +1,27 @@
-.App {
-  text-align: center;
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+
+body {
+  background-color: #f1f6fa;
+  font-family: 'Ubuntu', sans-serif;
+  color: #616161;
+  padding-bottom: 10vh;
+}
+
+h3, h2, h1 {
+  color: #33bdea;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.disply-4{
+  font-weight: 500;
 }
 
 .App-logo {

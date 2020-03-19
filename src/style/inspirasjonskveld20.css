@@ -1,0 +1,25 @@
+.study-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
+.study{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.cancelled {
+    position: fixed;
+    width: 80%;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -40%; /* Negative half of width. */
+    color: red;
+    text-align: center;
+}

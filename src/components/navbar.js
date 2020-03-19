@@ -25,9 +25,11 @@ class SBNavbar extends React.Component {
                         <Nav.Link target="_blank" href="https://www.instagram.com/ent3r_trondheim/?hl=nb">Instagram</Nav.Link>
                         <NavDropdown title="Tidligere elevkvelder" id="basic-nav-dropdown">
                             <Link className="dropdown-item" to="/elevkveld040320">Elevkveld med programmering</Link>
+                            <Link className="dropdown-item" to="/inspirasjonskveld20">Inspirasjonskveld 2020</Link>
                         </NavDropdown>
                         <NavDropdown title="Tidligere oppplegg" id="basic-nav-dropdown">
                             <Link className="dropdown-item" to="/opplegg040320">Programmering</Link>
+                            <Link className="dropdown-item" to="/inspirasjonskveld20Opplegg">Inspirasjonskveld 2020</Link>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

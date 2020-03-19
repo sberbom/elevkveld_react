@@ -1,12 +1,16 @@
 import React from 'react';
 import '../style/opplegg.css'
 import Header from '../components/header'
+import Rakett from '../files/rakett.JPG'
+import veileder from '../files/s_veiledere.png'
+
 
 function Opplegg040320(props) {
     return (
         <div>
             <Header
-                backgroundImage={'https://sberbom.s3.eu-north-1.amazonaws.com/rakett.JPG'}
+                backgroundImage={Rakett}
+                //backgroundImage={'https://sberbom.s3.eu-north-1.amazonaws.com/rakett.JPG'}
                 text={"Programmering!"}
             />
             <div className="info-opplegg-container">
@@ -28,7 +32,8 @@ function Opplegg040320(props) {
                 <p className="text2">For å lære scratch bør du følge veilederen som finnes på nettsiden til scratch. Første gang du går inn på siden vil det komme opp en "Kom i gang" veileder som vist på bilde under.
                 Ved å trykke på lyspæra i venste hjørnet på denne veilederen får du tillgang til enda flere veiledere og kan bli enda bedre på å bruke scratch! Er du usikker på noe kan mentoren din hjelpe deg!
                 </p>
-                <img className="bilde" src="https://sberbom.s3.eu-north-1.amazonaws.com/s_veiledere.png" alt="infobilde scratch" />
+                {/* <img className="bilde" src="https://sberbom.s3.eu-north-1.amazonaws.com/s_veiledere.png" alt="infobilde scratch" /> */}
+                <img className="bilde" src={veileder} alt="infobilde scratch" />
             </div>
         </div>
     )

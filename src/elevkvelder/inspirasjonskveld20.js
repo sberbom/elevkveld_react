@@ -3,13 +3,15 @@ import '../style/inspirasjonskveld20.css'
 import Header from '../components/header'
 import Info from '../components/info'
 import Title from '../components/title'
+import Selda_flamme from '../files/Selda_flamme.JPG'
 
 function Inspirasjonskveld20(props) {
         return(
             <div>
                 <h1 class="cancelled">Inspirasjonskvelden er avlyst på grunn av COVID-19 viruset</h1>
                 <Header 
-                    backgroundImage={'https://sberbom.s3.eu-north-1.amazonaws.com/Selda_flamme.JPG'}
+                    backgroundImage={Selda_flamme}
+                    //backgroundImage={'https://sberbom.s3.eu-north-1.amazonaws.com/Selda_flamme.JPG'}
                     text={"Inspirasjonskveld med ENT3R Trondheim"}
                     />
                 <Info

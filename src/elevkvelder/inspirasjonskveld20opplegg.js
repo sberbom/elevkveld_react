@@ -1,13 +1,16 @@
 import React from 'react';
 import '../style/inspirasjonskveld20.css'
 import Header from '../components/header'
+import Rakett from '../files/rakett.JPG'
+
 
 function Inspirasjonskveld20(props) {
         return(
             <div>
                 <h1 class="cancelled">Inspirasjonskvelden er avlyst på grunn av COVID-19 viruset</h1>
                 <Header 
-                    backgroundImage={'https://sberbom.s3.eu-north-1.amazonaws.com/Selda_flamme.JPG'}
+                    //backgroundImage={'https://sberbom.s3.eu-north-1.amazonaws.com/Selda_flamme.JPG'}
+                    backgroundImage={Rakett}
                     text={"Det er ikke et eget opplegg på inspirasjonskvelden"}
                     />
             </div>

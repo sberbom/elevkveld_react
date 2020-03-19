@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link, withRouter } from 'react-router-dom'
+import ENT3RLogo from '../files/logo.png'
 import '../style/navbar.css'
 
 class SBNavbar extends React.Component {
@@ -10,8 +11,9 @@ class SBNavbar extends React.Component {
                 <Link to="/" className="navbar-brand">
                     <img
                         alt="logo"
-                        src="https://sberbom.s3.eu-north-1.amazonaws.com/ENT3R-ny-farge.svg"
-                        width="100"
+                        // src="https://sberbom.s3.eu-north-1.amazonaws.com/ENT3R-ny-farge.svg"
+                        src={ENT3RLogo}
+                        width="140"
                         height="40"
                         className="d-inline-block align-top"
                     />

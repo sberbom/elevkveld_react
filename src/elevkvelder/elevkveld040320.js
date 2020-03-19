@@ -4,12 +4,14 @@ import Title from '../components/title'
 import Info from '../components/info'
 import Speakers from '../components/speakers'
 import Video from '../components/video'
+import Selda_flamme from '../files/Selda_flamme.JPG'
 
 function Elevkveld040320() {
   return (
     <div>
       <Header 
-        backgroundImage={'https://sberbom.s3.eu-north-1.amazonaws.com/Selda_flamme.JPG'}
+        //backgroundImage={'https://sberbom.s3.eu-north-1.amazonaws.com/Selda_flamme.JPG'}
+        backgroundImage={Selda_flamme}
         text={"Elevkveld med ENT3R Trondheim"}
         />
       <Info

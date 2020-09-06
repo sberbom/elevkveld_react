@@ -14,15 +14,17 @@ function Speakers(props) {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="card">
-              <Card.Img variant="top" src={props.speaker2_img} />
-              <Card.Body>
-                <Card.Title>{props.speaker2}</Card.Title>
-                <Card.Text>
-                  {props.speaker2_info}
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            {props.speaker2 && 
+              <Card className="card">
+                <Card.Img variant="top" src={props.speaker2_img} />
+                <Card.Body>
+                  <Card.Title>{props.speaker2}</Card.Title>
+                  <Card.Text>
+                    {props.speaker2_info}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            }
           </div>
         )
 }

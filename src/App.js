@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Switch, Route }  from "react-router-dom";
 import SBNavbar from './components/navbar'
 import Elevkveld040320 from './elevkvelder/elevkveld040320'
+import Elevkveld240920 from './elevkvelder/elevkveld240920'
 import Opplegg040320 from './elevkvelder/opplegg040320'
 import Inspirasjonskveld20 from './elevkvelder/inspirasjonskveld20'
 import Inspirasjonskveld20Opplegg from './elevkvelder/inspirasjonskveld20opplegg'
@@ -29,7 +30,7 @@ function App() {
             <Opplegg040320 />
           </Route>
           <Route path="/">
-            <Elevkveld040320 />
+            <Elevkveld240920 />
           </Route>
       </Switch>
     </div>

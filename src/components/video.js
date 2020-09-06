@@ -11,7 +11,7 @@ function Video(props) {
                         <iframe className="video-iframe" src={props.video} title={props.videoTitle}>
                         </iframe>
                     </div>
-                    <a href={props.moreInfo} target="_blank" rel="noopener noreferrer" className="btn btn-primary video-button">{props.moreInfoText}</a>
+                    {props.moreInfo && <a href={props.moreInfo} target="_blank" rel="noopener noreferrer" className="btn btn-primary video-button">{props.moreInfoText}</a>}
             </div>
         )
 }

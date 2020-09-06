@@ -19,6 +19,7 @@ function Elevkveld040320() {
         when={"4. Mars kl. 18:00 - 20:00"}
         where={"Vi møter i auditoriet R7 i Realfagsbygget på NTNU Gløshaugen. Mentorene står på Realfagsbygget og hjelper deg med å finne frem. Se kart."}
         map={"https://use.mazemap.com/#v=1&zlevel=-1&center=10.404623,63.415578&zoom=18&campusid=1&sharepoitype=poi&sharepoi=2035"}
+        registration={"Send en melding med 'Elevkveld' til 1930. For avmelding send 'Elevkveld stopp' til 1930"}
       />
       <Title text={"Foredragsholdere"}/>
       <Speakers 

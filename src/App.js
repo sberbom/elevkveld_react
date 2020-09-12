@@ -6,6 +6,7 @@ import SBNavbar from './components/navbar'
 import Elevkveld040320 from './elevkvelder/elevkveld040320'
 import Elevkveld240920 from './elevkvelder/elevkveld240920'
 import Opplegg040320 from './elevkvelder/opplegg040320'
+import Opplegg240920 from './elevkvelder/opplegg240920'
 import Inspirasjonskveld20 from './elevkvelder/inspirasjonskveld20'
 import Inspirasjonskveld20Opplegg from './elevkvelder/inspirasjonskveld20opplegg'
 
@@ -27,7 +28,7 @@ function App() {
             <Inspirasjonskveld20Opplegg />
           </Route>
           <Route path="/opplegg">
-            <Opplegg040320 />
+            <Opplegg240920 />
           </Route>
           <Route path="/">
             <Elevkveld240920 />

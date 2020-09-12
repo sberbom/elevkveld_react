@@ -10,9 +10,33 @@
 }
 
 .mazemap {
-    width: 40%;
     border-radius: 20px;
     border: none;
+    height: 100%;
+}
+
+.nav {
+    justify-content: center;
+}
+
+.tab-content{
+    height: 100%;
+}
+
+.tab-pane {
+    height: 100%;
+}
+.width100 {
+    width: 100%;
+}
+
+.registraionContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.registraionContainer > a {
+    margin: 0 0.1rem;
 }
 
 @media only screen and (min-width: 600px) {
@@ -29,6 +53,10 @@
 
     .påmelding-btn {
         margin-bottom: 2vh;
+    }
+
+    .desktop {
+        display: none;
     }
 
     .mazemap {

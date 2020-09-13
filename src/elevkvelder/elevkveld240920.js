@@ -15,7 +15,7 @@ const Elevkveld040320 = () => {
         />
       <Info
         what={"Hva er egentlig realfag? Hvordan kan man bruke realfag? Og er egentlig realfag viktig? Vi får besøk av Stian Sandø. Han skal fortelle om sine opplevelser med realfag og hvordan han bruker realfag til å gjøre verden til et bedre sted!"}
-        when={"24 september kl. 17:30 - 19:30 og 18:30 - 20:30. Denne gangen har vi to elevkvelder samme kveld! Den første elevkvelden starter 17:30 og den andre starter 18:30. Husk hvilke du melder deg på!"}
+        when={"24. september kl. 17:30 - 19:30 og 18:30 - 20:30. Denne gangen har vi to elevkvelder samme kveld! Den første elevkvelden starter 17:30 og den andre starter 18:30. Husk hvilke du melder deg på!"}
         where={"Elevkvelden som starter 17:30 møter i S3."}
         where2={"Elevkvelden som starter 18:30 møter i R1."}
         map={"https://use.mazemap.com/#v=1&center=10.404371,63.417343&zoom=18.5&zlevel=1&campusid=1&sharepoitype=poi&sharepoi=1186500"}
@@ -27,7 +27,7 @@ const Elevkveld040320 = () => {
       />
       <Title text={"Foredragsholdere"}/>
       <Speakers 
-        speaker1={"Stian Sandøe"}
+        speaker1={"Stian Sandø"}
         speaker1_info={"Stian Sandø er blant annet kjent fra Newton og YouTube. Han er en ingenør som elsker realfag. Han er opptatt av ny og spennede teknologi og syntes det er spesielt spennende å finne teknologi som kan hjelpe mennesker!"}
         speaker1_img={"https://www.athenas.no/wp-content/uploads/Stian-Sand%C3%B8r-250.jpg"}
       />

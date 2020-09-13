@@ -10,7 +10,6 @@ function Opplegg040320(props) {
         <div>
             <Header
                 backgroundImage={Rakett}
-                //backgroundImage={'https://sberbom.s3.eu-north-1.amazonaws.com/rakett.JPG'}
                 text={"Ballongbil race!"}
             />
             <div className="info-opplegg-container">
@@ -19,7 +18,7 @@ function Opplegg040320(props) {
                     I rommet dere er i finner dere masse utstyr dere kan bruke til å lage bilen. 
                     Dere skal lage hver deres bil og konkurrere mot hverandre. 
                     Hvordan du lager bilen er helt opp til deg selv! Her kan du forske og finne ut hvilke 
-                    design som gir det best resultat. Når du skal lage bilen er det to ting du bør tenke på:
+                    design som gir det best resultatet. Når du skal lage bilen er det to ting du bør tenke på:
                 </p>
                 <ul>
                     <li>Mye motorkraft fremover – Skal bilen gå langt trenger den en bra motor.</li>

@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from '../components/header'
 import Title from '../components/title'
 import Info from '../components/info'
 import Speakers from '../components/speakers'
 import Video from '../components/video'
+import {Button, Modal} from 'react-bootstrap'
+import invitation from '../files/invitasjon240920.jpg'
+import "../style/elevkveld240920.css"
 
 const Elevkveld040320 = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const onInvitationClick = () => {
+    setShowModal(!showModal);
+  }
 
   return (
     <div>
@@ -25,6 +33,7 @@ const Elevkveld040320 = () => {
         unregister={'For avmelding send "Elevkveld stopp" til 1930.'}
         unregister2={'For avmelding send "ENT3R stopp" til 1930.'}
       />
+      <Button className="invitasjonButton" onClick={onInvitationClick}>Invitasjon</Button>
       <Title text={"Foredragsholdere"}/>
       <Speakers 
         speaker1={"Stian Sandø"}
@@ -37,6 +46,20 @@ const Elevkveld040320 = () => {
         videoTitle={"StianLekerMedFlytendeMetall"}
         info={"Gallium er et av de mer interessante metallene vi vet om. Den er nemlig flytende ved svært lav temperatur, noe som gjør at man kan holde den i hånda mens den er flytende! Sjekk ut denne videoen med Stian"}
      />
+
+      <Modal show={showModal} onHide={onInvitationClick}>
+        <Modal.Header closeButton>
+          <Modal.Title>Invitasjon</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <img src={invitation} className="invitationImage" alt="invitasjon"/>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={onInvitationClick}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }

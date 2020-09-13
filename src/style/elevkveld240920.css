@@ -1,0 +1,9 @@
+.invitasjonButton {
+    margin: auto;
+    display: block;
+    min-width: 40vw;
+}
+
+.invitationImage {
+    width: 100%;
+}

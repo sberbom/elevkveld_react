@@ -23,8 +23,8 @@ const Elevkveld261020 = () => {
         where2={"Onsdag: Auditorium R8"}
         tab1={"Auditorium EL3"}
         tab2={"Auditorium R8"}
-        map={"https://use.mazemap.com/#v=1&center=10.404371,63.417343&zoom=18.5&zlevel=1&campusid=1&sharepoitype=poi&sharepoi=1186500"}
-        map2={"https://use.mazemap.com/#v=1&center=10.406446,63.415942&zoom=18&sharepoitype=poi&sharepoi=2036&zlevel=-1&campusid=1"}
+        map={"https://use.mazemap.com/#v=1&zlevel=1&center=10.401100,63.418647&zoom=18&campusid=1&sharepoitype=poi&sharepoi=43"}
+        map2={"https://use.mazemap.com/#v=1&zlevel=-1&center=10.404362,63.415523&zoom=18&campusid=1&sharepoitype=poi&sharepoi=1948"}
         registrationLink={'https://s.ntnu.no/elevkveld'}
       />
       <Title text={"Heksemel med Andreas Wahl"}/>

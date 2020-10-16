@@ -15,24 +15,31 @@ const Info = (props) => {
                 <h3>Hvor?</h3>
                 <p className="lead">{props.where} <br /> {props.where2} </p>
                 <h3>Påmelding</h3>
-                <p className="lead">
-                    {props.registration} <br className="desktop"/> 
-                    {props.unregister} <br />
-                    {props.registration2 && props.registration2} <br className="desktop"/>
-                    {props.unregister2 && props.unregister2}
-                </p>
-                <div className={"registraionContainer"}>
-                    <a href="sms:1930?body=Elevkveld" className="btn btn-primary mobile påmelding-btn">Påmelding 17:30</a>
-                    <a href="sms:1930?body=ENT3R" className="btn btn-primary mobile påmelding-btn">Påmelding 18:30</a>
-                </div>
+                {props.registration && 
+                    <p className="lead">
+                        {props.registration} <br className="desktop"/> 
+                        {props.unregister} <br />
+                        {props.registration2 && props.registration2} <br className="desktop"/>
+                        {props.unregister2 && props.unregister2}
+                    </p> }
+                {props.registrationLink && 
+                    <a className="lead" href={props.registrationLink} target="_blank" rel="noopener noreferrer">{props.registrationLink}</a>
+                }
+
+                {props.registration && 
+                    <div className={"registraionContainer"}>
+                        <a href="sms:1930?body=Elevkveld" className="btn btn-primary mobile påmelding-btn">Påmelding 17:30</a>
+                        <a href="sms:1930?body=ENT3R" className="btn btn-primary mobile påmelding-btn">Påmelding 18:30</a>
+                    </div>
+                }
             </div> 
             <div>
                 <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-                    <Tab eventKey="home" title="Auditorium S3">
+                    <Tab eventKey="home" title={props.tab1}>
                         <iframe title="kart" className="mazemap" src={props.map}>
                         </iframe>
                     </Tab>
-                    <Tab eventKey="profile" title="Auditorium R1">
+                    <Tab eventKey="profile" title={props.tab2}>
                         <iframe title="kart" className="mazemap" src={props.map2}>
                         </iframe>
                     </Tab>

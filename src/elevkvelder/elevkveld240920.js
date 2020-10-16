@@ -26,6 +26,8 @@ const Elevkveld040320 = () => {
         when={"24. september kl. 17:30 - 19:30 og 18:30 - 20:30. Denne gangen har vi to elevkvelder samme kveld! Den første elevkvelden starter 17:30 og den andre starter 18:30. Husk hvilke du melder deg på!"}
         where={"Elevkvelden som starter 17:30 møter i S3."}
         where2={"Elevkvelden som starter 18:30 møter i R1."}
+        tab1={"Auditorium S3"}
+        tab2={"Auditorium R1"}
         map={"https://use.mazemap.com/#v=1&center=10.404371,63.417343&zoom=18.5&zlevel=1&campusid=1&sharepoitype=poi&sharepoi=1186500"}
         map2={"https://use.mazemap.com/#v=1&center=10.406446,63.415942&zoom=18&sharepoitype=poi&sharepoi=2036&zlevel=-1&campusid=1"}
         registration={`For elevkvelden som starter 17:30 send "Elevkveld" til 1930.`}

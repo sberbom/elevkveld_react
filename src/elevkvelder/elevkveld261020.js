@@ -13,7 +13,6 @@ const Elevkveld261020 = () => {
       <div className={"desktop"}>
         <Header 
           backgroundImage={elevkveldforside}
-          text={"Elevkveld med ENT3R Trondheim"}
           />
       </div>
       <Info

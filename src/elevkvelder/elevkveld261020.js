@@ -16,8 +16,8 @@ const Elevkveld261020 = () => {
           />
       </div>
       <Info
-        what={"Hva er egentlig realfag? Hvordan kan man bruke realfag? Denne elevkvelden skal vi ha rebus på NTNU Gløshaugen der du får teste nettopp dette. Det blir konkurannser, fete premier, pizza og mye mer!"}
-        when={"26. oktober kl. 18:00 - 20:00 og 28. oktober 18:00 - 20:00. Denne gangen skal vi ha to elevkvelder samme uke! En elevkveld på mandag og en elevkveld på onsdag. Husk hvilke du melder deg på!"}
+        what={"Hva er egentlig realfag? Hvordan kan man bruke realfag? Denne elevkvelden skal vi ha rebus på NTNU Gløshaugen der du får teste nettopp dette. Det blir konkurannser, fete premier, pizza og mye mer! Elevkvelden er kun for elever på ENT3R Trondheim, og er helt gratis!"}
+        when={"26. oktober kl. 18:00 - 20:00 og 28. oktober 18:00 - 20:00. Denne gangen skal vi ha to elevkvelder samme uke! En elevkveld på mandag og en elevkveld på onsdag. Elevkveldene blir helt like, og du kan bare melde deg på en. Husk hvilke du melder deg på!"}
         where={"Mandag: Auditorium EL3"}
         where2={"Onsdag: Auditorium R8"}
         tab1={"Auditorium EL3"}

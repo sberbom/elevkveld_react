@@ -6,6 +6,7 @@ import SBNavbar from './components/navbar'
 import Elevkveld040320 from './elevkvelder/elevkveld040320'
 import Elevkveld240920 from './elevkvelder/elevkveld240920'
 import Elevkveld261020 from './elevkvelder/elevkveld261020'
+import Elevkveld191120 from './elevkvelder/elevkveld191120'
 import Opplegg040320 from './elevkvelder/opplegg040320'
 import Opplegg240920 from './elevkvelder/opplegg240920'
 import Inspirasjonskveld20 from './elevkvelder/inspirasjonskveld20'
@@ -19,26 +20,34 @@ function App() {
           <Route path="/elevkveld040320">
             <Elevkveld040320 />
           </Route>
-          <Route path="/opplegg040320">
-            <Opplegg040320 />
-          </Route>
           <Route path="/elevkveld240920">
             <Elevkveld240920 />
-          </Route>
-          <Route path="/opplegg240920">
-            <Opplegg240920 />
           </Route>
           <Route path="/inspirasjonskveld20">
             <Inspirasjonskveld20 />
           </Route>
+          <Route path="/elevkveld261020">
+            <Elevkveld261020 />
+          </Route>
+          <Route path="/elevkveld191120">
+            <Elevkveld191120 />
+          </Route>
+
+          <Route path="/opplegg040320">
+            <Opplegg040320 />
+          </Route>
+          <Route path="/opplegg240920">
+            <Opplegg240920 />
+          </Route>
           <Route path="/inspirasjonskveld20Opplegg">
             <Inspirasjonskveld20Opplegg />
           </Route>
+
           <Route path="/opplegg">
             <Opplegg240920 />
           </Route>
           <Route path="/">
-            <Elevkveld261020 />
+            <Elevkveld191120 />
           </Route>
       </Switch>
     </div>

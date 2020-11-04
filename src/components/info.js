@@ -13,7 +13,7 @@ const Info = (props) => {
                 <h3>Når?</h3>
                 <p className="lead">{props.when}</p>
                 <h3>Hvor?</h3>
-                <p className="lead">{props.where} <br /> {props.where2} </p>
+                <p className="lead">{props.where} <br /> {props.where2} <br /> {props.where3}</p>
                 <h3>Påmelding</h3>
                 {props.registration && 
                     <p className="lead">
@@ -43,6 +43,12 @@ const Info = (props) => {
                         <iframe title="kart" className="mazemap" src={props.map2}>
                         </iframe>
                     </Tab>
+                    {props.tab3 && 
+                        <Tab eventKey="tab3" title={props.tab3}>
+                            <iframe title="kart" className="mazemap" src={props.map3}>
+                            </iframe>
+                        </Tab>
+                    }      
                 </Tabs>
             </div>
         </div>

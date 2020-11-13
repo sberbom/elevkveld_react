@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/header'
 import elevkveldforside from '../files/elevkveldforside.jpg'
-import airpods from '../files/airpods.webp'
+import airpods from '../files/airpods.jpg'
 import "../style/elevkveld251120.css"
 
 const Elevkveld191120 = () => {
@@ -35,7 +35,7 @@ const Elevkveld191120 = () => {
                     <img src={airpods} alt="airpods"></img>
                 </div>
                 <div className="info-text info-text-olav">
-                    <h2>Konkurannse</h2>
+                    <h2>Konkurranse</h2>
                     <p className="lead">Elevkvelden avsluttes med en kahoot med fete premier! Det blir mulighet til å vinner airpods, magisk julekule og kanksje noe annet gøy!</p>
                     <p className="lead"><a href="https://www.apple.com/airpods/" target="_blank" rel="noopener noreferrer">Airpods</a></p>
                     <p className="lead"><a href="https://www.vitenwahl.no/alle/nyheter/julekula.html" target="_blank" rel="noopener noreferrer">Magisk julekule</a></p>

@@ -30,7 +30,7 @@ class SBNavbar extends React.Component {
                             <Link className="dropdown-item" to="/inspirasjonskveld20">Inspirasjonskveld 2020</Link>
                             <Link className="dropdown-item" to="/elevkveld240920">Elevkveld med Stian Sandø</Link>
                             <Link className="dropdown-item" to="/elevkveld261020">Elevkveld med Rebus</Link>
-                            <Link className="dropdown-item" to="/elevkveld191120">Elevkveld med Film</Link>
+                            <Link className="dropdown-item" to="/elevkveld191120">Elevkveld med Olav Schewe</Link>
                         </NavDropdown>
                         <NavDropdown title="Tidligere oppplegg" id="basic-nav-dropdown">
                             <Link className="dropdown-item" to="/opplegg040320">Programmering</Link>

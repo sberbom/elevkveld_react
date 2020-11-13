@@ -1,50 +1,46 @@
 import React from 'react';
 import Header from '../components/header'
-import Title from '../components/title'
-import Info from '../components/info'
-import Video from '../components/video'
 import elevkveldforside from '../files/elevkveldforside.jpg'
-import "../style/elevkveld261020.css"
+import airpods from '../files/airpods.webp'
+import "../style/elevkveld251120.css"
 
 const Elevkveld191120 = () => {
 
     return (
-        <div className="elevkveld261020">
-        <img className={"img-header mobile"} src={elevkveldforside} alt="header"/>
-        <div className={"desktop"}>
-            <Header 
-            backgroundImage={elevkveldforside}
-            />
-        </div>
-        <Info
-            what={"Denne elevkvelden skal vi ha juleavslutning! Det blir film, pizza, snop og god stemming! Vi viser 3 ulike filmer, meld deg på den filmen du vil se!"}
-            when={"19. november kl. 18:30 - 21:00."}
-            where={"The imitation game: Auditorium R7"}
-            where2={"Good Will Hunting: Auditorium S3"}
-            where3={"Interstellar: Auditorium KJL1"}
-            tab1={"Auditorium R7"}
-            tab2={"Auditorium S3"}
-            tab3={"Auditorium KJL1"}
-            map={"https://use.mazemap.com/#v=1&zlevel=-1&center=10.404623,63.415578&zoom=18&campusid=1&sharepoitype=poi&sharepoi=2035"}
-            map2={"https://use.mazemap.com/#v=1&zlevel=1&center=10.404425,63.417382&zoom=18&campusid=1&sharepoitype=poi&sharepoi=1000317817"}
-            map3={"https://use.mazemap.com/#v=1&zlevel=1&center=10.404359,63.418691&zoom=18&campusid=1&sharepoitype=poi&sharepoi=873898"}
-            registrationLink={'https://s.ntnu.no/elevkveld'}
-        />
-        <Title text={"The imitation game - Trailer"}/>
-        <Video 
-            video={"https://www.youtube.com/embed/nuPZUUED5uk"}
-            videoTitle={"imitationtrailer"}
-        />
-        <Title text={"Good Will Hunting - Trailer"}/>
-        <Video 
-            video={"https://www.youtube.com/embed/nH9LZOXBMUE"}
-            videoTitle={"goodwilltrailer"}
-        />
-        <Title text={"Interstellar - Trailer"}/>
-        <Video 
-            video={"https://www.youtube.com/embed/zSWdZVtXT7E"}
-            videoTitle={"interstellartrailer"}
-        />
+        <div className="elevkveld251120">
+            <img className={"img-header mobile"} src={elevkveldforside} alt="header"/>
+            <div className={"desktop"}>
+                <Header 
+                backgroundImage={elevkveldforside}
+                />
+            </div>
+            <div className="info-container info-container-olav">
+                <div className="info-text">
+                    <h3>Hva?</h3>
+                    <p className="lead">{"Denne elevkvelden skal vi lære om studieteknikk med Olav Schewe. Å lykkes som elev og student handler ikke bare om å være smart. Faktisk mener psykologer nå at så mye som 70% av det vi lærer skyldes studieteknikk og motivasjon. Denne elevkvelden skal vi lære hvordan studenter og elever kan bli bedre til å lære ved hjelp av studieteknikk."}</p>
+                    <h3>Når?</h3>
+                    <p className="lead">{"25. November kl 18:00 - 19:30."}</p>
+                    <h3>Hvor?</h3>
+                    <p className="lead">{"Digitalt. Meld deg på nedefor, så vil du få tillsendt en link til elevkvelden. Linken kommer samme dag som elevkvelden."}</p>
+                    <h3>Påmelding</h3>
+                    <a className="lead" href={"https://s.ntnu.no/elevkveld"} target="_blank" rel="noopener noreferrer">{"https://s.ntnu.no/elevkveld"}</a>
+                </div> 
+                <div className="olav-video-container">
+                    <h2 className="olav-video-header">Olav Schewe</h2>
+                    <iframe className="olav-video" title="OlavSchewe" src="https://www.youtube.com/embed/McDTOVngLr8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div className="info-container info-container-olav">
+                <div className="image-container-olav">
+                    <img src={airpods} alt="airpods"></img>
+                </div>
+                <div className="info-text info-text-olav">
+                    <h2>Konkurannse</h2>
+                    <p className="lead">Elevkvelden avsluttes med en kahoot med fete premier! Det blir mulighet til å vinner airpods, magisk julekule og kanksje noe annet gøy!</p>
+                    <p className="lead"><a href="https://www.apple.com/airpods/" target="_blank" rel="noopener noreferrer">Airpods</a></p>
+                    <p className="lead"><a href="https://www.vitenwahl.no/alle/nyheter/julekula.html" target="_blank" rel="noopener noreferrer">Magisk julekule</a></p>
+                </div>
+            </div>
         </div>
     );
 }

@@ -1,0 +1,47 @@
+.olav-video-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.olav-video {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.olav-video-header {
+    text-align: center;
+}
+
+.image-container-olav{
+    width: 40%;
+}
+
+.image-container-olav > img {
+    width: 90%;
+    border-radius: 10px;
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .olav-video-container{
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .info-container-olav{
+        flex-direction: column-reverse;
+    }
+
+    .image-container-olav{
+        width: 100%;
+    }
+
+    .image-container-olav > img {
+        width: 100%;
+    }
+    
+}

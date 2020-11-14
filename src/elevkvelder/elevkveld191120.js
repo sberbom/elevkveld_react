@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/header'
 import elevkveldforside from '../files/elevkveldforside.jpg'
-import airpods from '../files/airpods.jpg'
+import noiceCancelling from '../files/bose.webp'
 import "../style/elevkveld251120.css"
 
 const Elevkveld191120 = () => {
@@ -32,12 +32,12 @@ const Elevkveld191120 = () => {
             </div>
             <div className="info-container info-container-olav">
                 <div className="image-container-olav">
-                    <img src={airpods} alt="airpods"></img>
+                    <img src={noiceCancelling} alt="airpods"></img>
                 </div>
                 <div className="info-text info-text-olav">
                     <h2>Konkurranse</h2>
-                    <p className="lead">Elevkvelden avsluttes med en kahoot med fete premier! Det blir mulighet til å vinner airpods, magisk julekule og kanksje noe annet gøy!</p>
-                    <p className="lead"><a href="https://www.apple.com/airpods/" target="_blank" rel="noopener noreferrer">Airpods</a></p>
+                    <p className="lead">Elevkvelden avsluttes med en kahoot med fete premier! Det blir mulighet til å vinner støydempende headsett, magisk julekule og kanskje noe annet gøy!</p>
+                    <p className="lead"><a href="https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless-ii.html#v=qc35_ii_black" target="_blank" rel="noopener noreferrer">Støydempende headsett</a></p>
                     <p className="lead"><a href="https://www.vitenwahl.no/alle/nyheter/julekula.html" target="_blank" rel="noopener noreferrer">Magisk julekule</a></p>
                 </div>
             </div>

@@ -37,8 +37,8 @@ const Elevkveld191120 = () => {
                 <div className="info-text info-text-olav">
                     <h2>Konkurranse</h2>
                     <p className="lead">
-                        Elevkvelden avsluttes med en Kahoot med fete premier! Det blir mulighet til å vinne støydempende headsett
-                        <a href="https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless-ii.html#v=qc35_ii_black" target="_blank" rel="noopener noreferrer"> (Bose QuietComfort 35 II)</a>,
+                        Elevkvelden avsluttes med en Kahoot med fete premier! Det blir mulighet til å vinne støydempende headsett (
+                        <a href="https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless-ii.html#v=qc35_ii_black" target="_blank" rel="noopener noreferrer">Bose QuietComfort 35 II</a>),
                         <a href="https://www.vitenwahl.no/alle/nyheter/julekula.html" target="_blank" rel="noopener noreferrer"> magisk julekule </a>
                         og kanskje noe annet gøy!
                     </p>

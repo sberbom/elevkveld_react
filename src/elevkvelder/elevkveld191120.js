@@ -22,7 +22,7 @@ const Elevkveld191120 = () => {
                     <p className="lead">{"25. November kl 18:00 - 19:30."}</p>
                     <h3>Hvor?</h3>
                     <p className="lead">{"Digitalt. Meld deg på nedenfor, så vil du få tilsendt en link til elevkvelden. Linken kommer samme dag som elevkvelden."}</p>
-                    <h3>Påmelding</h3>
+                    <h3>Påmelding:</h3>
                     <a className="lead" href={"https://s.ntnu.no/elevkveld"} target="_blank" rel="noopener noreferrer">{"https://s.ntnu.no/elevkveld"}</a>
                 </div> 
                 <div className="olav-video-container">

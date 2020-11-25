@@ -23,7 +23,7 @@ const Elevkveld191120 = () => {
                     <h3>Hvor?</h3>
                     <p className="lead">{"Digitalt. Meld deg på nedenfor, så vil du få tilsendt en link til elevkvelden. Linken kommer samme dag som elevkvelden."}</p>
                     <h3>Lenke til foredrag:</h3>
-                    <a className="lead" href={"https://vimeo.com/479761308"} target="_blank" rel="noopener noreferrer">{"https://vimeo.com/479761308"}</a>
+                    <a className="lead" href={"https://s.ntnu.no/elevkveld-foredrag"} target="_blank" rel="noopener noreferrer">{"https://s.ntnu.no/elevkveld-foredrag"}</a>
                     <p>Passord: Superhjernen</p>
                 </div> 
                 <div className="olav-video-container">
